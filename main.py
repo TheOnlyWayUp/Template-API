@@ -5,7 +5,6 @@ from rich.console import Console
 # --- Constants --- #
 
 app = FastAPI()
-app.state.limiter = limiter
 console = Console()
 apps = []
 
